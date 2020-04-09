@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["document","querySelector","innerHTML","Date","getFullYear"],"mappings":";AAAAA,SAASC,cAAc,YAAYC,WAAY,IAAIC,MAAOC","file":"src.1ec3a9f7.js","sourceRoot":"..\\src","sourcesContent":["document.querySelector(\".js-year\").innerHTML = new Date().getFullYear();\r\n"]}
