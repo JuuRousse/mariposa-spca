@@ -1,0 +1,283 @@
+.header-container {
+  max-width: 1320px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 29px;
+}
+
+.header-items {
+  display: flex;
+  align-items: center;
+}
+
+.header-menu ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.header-menu ul li {
+  padding-right: 24px;
+}
+
+.header-menu a {
+  font-size: 14px;
+  line-height: 29px;
+}
+
+.header-button button {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  background-color: rgba(253, 180, 97, 0.82);
+  border-radius: 4px;
+  border: none;
+  padding: 3px 10px;
+}
+
+.first-section {
+  margin-top: 217px;
+}
+
+.section-with-buttons h1 {
+  max-width: 713px;
+  font-size: 72px;
+  line-height: 86px;
+  padding-bottom: 40px;
+  margin: 0;
+}
+
+.content {
+  max-width: 639px;
+}
+
+.content .content-item {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.button-content {
+  margin-top: 32px;
+}
+
+.button-content button {
+  background-color: rgba(253, 180, 97, 0.82);
+  border-radius: 8px;
+  border: none;
+  color: rgba(62, 34, 3, 0.82);
+  padding: 12px 18px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  margin-right: 24px;
+}
+
+.button-content a {
+  border: 2px solid rgba(62, 34, 3, 0.82);
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: rgba(62, 34, 3, 0.82);
+  padding: 11px 18px 11px 17px;
+}
+
+.second-section {
+  margin-top: 495px;
+}
+
+.container-of-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.collage-container {
+  position: relative;
+}
+
+.collage-item {
+  position: absolute;
+}
+
+.collage-item img {
+  box-shadow: 0px 12px 40px rgba(0, 0, 0, 0.35);
+  border-radius: 8px;
+  display: block;
+}
+
+.collage-item.pic-one {
+  z-index: 10;
+}
+
+.collage-item.pic-two {
+  z-index: 5;
+  top: 124px;
+  left: 200px;
+}
+
+.collage-item.pic-three {
+  top: 296px;
+  left: 42px;
+}
+
+.section-collage h1 {
+  max-width: 639px;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 77px;
+  color: #ffffff;
+  margin: 0;
+  padding-bottom: 40px;
+}
+
+.section-collage .content-item {
+  margin-bottom: 24px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.section-collage .link-content {
+  margin-top: 32px;
+  margin-bottom: 120px;
+}
+
+.section-collage .link-content a {
+  color: rgba(253, 180, 97, 0.82);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: uppercase;
+  border-bottom: 2px solid rgba(253, 180, 97, 0.82);
+}
+
+.feedback-block {
+  display: flex;
+}
+
+.feedback-block img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+.feedback {
+  font-style: italic;
+  font-size: 18px;
+  line-height: 27px;
+  margin-left: 24px;
+}
+
+.feedback .feedback-content {
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 16px;
+}
+
+.feedback .feedback-username {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.feedback-block-next {
+  margin-top: 40px;
+}
+
+.third-section {
+  padding-top: 322px;
+}
+
+.collage-item.pic-four {
+  z-index: 5;
+  top: -62px;
+  right: 42px;
+}
+
+.collage-item.pic-five {
+  z-index: 10;
+  top: 108px;
+  right: 200px;
+}
+
+.collage-item.pic-six {
+  top: 200px;
+  right: 0;
+}
+
+.fourth-section {
+  margin-top: 400px;
+  padding-bottom: 222px;
+}
+
+.fourth-section h1 {
+  color: #ffffff;
+}
+
+.fourth-section .content-item {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.fourth-section .button-content a {
+  color: rgba(253, 180, 97, 0.82);
+  border-color: rgba(253, 180, 97, 0.82);
+}
+
+.footer-copyright {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.6);
+  padding-bottom: 91px;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+.container {
+  max-width: 1190px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.app {
+  padding-top: 57px;
+}
+
+.mountains-background {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 84.53%, #000000 100%), url(/first-bg.bb974500.jpg) 0 295px no-repeat;
+  background-size: cover;
+}
+
+.night-mountains-background {
+  background: #000000 url(/second-bg.0f9fd594.jpg) 0 322px no-repeat;
+  background-size: cover;
+}
+
+/*# sourceMappingURL=/src.80ee2152.css.map */
