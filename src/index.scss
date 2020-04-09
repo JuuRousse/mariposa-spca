@@ -1,0 +1,44 @@
+@import "css/header.scss";
+@import "css/section-one.scss";
+@import "css/section-two.scss";
+@import "css/section-three.scss";
+@import "css/section-four.scss";
+@import "css/footer.scss";
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+.container {
+  max-width: 1190px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.app {
+  padding-top: 57px;
+}
+
+.mountains-background {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 84.53%, #000000 100%),
+    url(./img/first-bg.jpg) 0 295px no-repeat;
+  background-size: cover;
+}
+
+.night-mountains-background {
+  background: #000000 url(./img/second-bg.jpg) 0 322px no-repeat;
+  background-size: cover;
+}
